@@ -1,0 +1,13 @@
+2025-11-18 21:20:04 - root - INFO - Logging configurado.
+2025-11-18 21:20:13 - io_utils.data_handler - ERROR - Arquivo não encontrado: data/input/pedidos.gz
+2025-11-18 21:20:13 - pipeline.pipeline - ERROR - Problemas ao carregar dados de pedidos: Erro ao carregar pedidos: [PATH_NOT_FOUND] Path does not exist: file:/home/ubuntu/environment/data-engineering-pyspark/data/input/pedidos.gz. SQLSTATE: 42K03
+2025-11-18 21:20:14 - root - INFO - Sessão Spark finalizada.
+2025-11-18 21:20:14 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-11-18 21:20:55 - root - INFO - Logging configurado.
+2025-11-18 21:21:11 - io_utils.data_handler - INFO - Dados salvos com sucesso em: data/output/pedidos_por_pagamento
+2025-11-18 21:21:12 - root - INFO - Sessão Spark finalizada.
+2025-11-18 21:21:12 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-11-19 00:41:41 - root - INFO - Logging configurado.
+2025-11-19 00:41:56 - io_utils.data_handler - INFO - Dados salvos com sucesso em: data/output/pedidos_por_pagamento
+2025-11-19 00:41:56 - root - INFO - Sessão Spark finalizada.
+2025-11-19 00:41:56 - py4j.clientserver - INFO - Closing down clientserver connection
