@@ -5,9 +5,6 @@ from pyspark.sql.types import (
     StructField,
     StringType,
     LongType,
-    DoubleType,
-    ArrayType,
-    DateType,
     FloatType,
     TimestampType,
     BooleanType,
@@ -111,4 +108,5 @@ class DataHandler:
             df.write.mode("overwrite").parquet(path)
             logger.info(f"Dados salvos com sucesso em: {path}")
         except AnalysisException as e:
-            logger.error(f"Não foi possivel escrever arquivo: {path}")
+            logger.error(f"Não foi possivel escrever arquivo: {path}. Detalhes: {e}", exc_info=True)
+            raise 

@@ -1,5 +1,7 @@
 MANIFEST.in
+README.md
 pyproject.toml
+requirements.txt
 src/config/__init__.py
 src/config/settings.py
 src/dataeng_pyspark_data_pipeline.egg-info/PKG-INFO
@@ -16,3 +18,4 @@ src/processing/__init__.py
 src/processing/transformations.py
 src/session/__init__.py
 src/session/spark_session.py
+tests/test_transformations.py
