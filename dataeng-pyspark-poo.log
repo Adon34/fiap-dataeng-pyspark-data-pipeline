@@ -27,3 +27,19 @@
 2025-11-24 17:11:23 - __main__ - INFO - Pipeline executado com sucesso.
 2025-11-24 17:11:23 - __main__ - INFO - Sessão Spark finalizada.
 2025-11-24 17:11:23 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-11-24 17:58:58 - __main__ - INFO - Logging configurado com sucesso.
+2025-11-24 17:58:58 - config.settings - INFO - Configuração carregada com sucesso de: config/settings.yaml
+2025-11-24 17:58:58 - __main__ - INFO - Iniciando aplicação: Analise de Pagamentos
+2025-11-24 17:59:02 - pipeline.pipeline - INFO - Pipeline iniciado...
+2025-11-24 17:59:02 - pipeline.pipeline - INFO - Abrindo o dataframe de pagamentos
+2025-11-24 17:59:07 - pipeline.pipeline - INFO - Filtrando dataframe cujo o pagamento foi recusado mesmo sendo legitimos
+2025-11-24 17:59:07 - pipeline.pipeline - INFO - Abrindo o dataframe de pedidos
+2025-11-24 17:59:07 - pipeline.pipeline - INFO - Adicionando a coluna valor_total
+2025-11-24 17:59:08 - pipeline.pipeline - INFO - Fazendo a junção dos dataframes pedidos e pagamento
+2025-11-24 17:59:10 - pipeline.pipeline - INFO - Selecionando colunas
+2025-11-24 17:59:10 - pipeline.pipeline - INFO - Filtrando e ordenando dados de 2025 
+2025-11-24 17:59:11 - pipeline.pipeline - INFO - Escrevendo o resultado em parquet
+2025-11-24 17:59:14 - io_utils.data_handler - INFO - Dados salvos com sucesso em: data/output/pedidos_por_pagamento
+2025-11-24 17:59:14 - __main__ - INFO - Pipeline executado com sucesso.
+2025-11-24 17:59:15 - __main__ - INFO - Sessão Spark finalizada.
+2025-11-24 17:59:15 - py4j.clientserver - INFO - Closing down clientserver connection
